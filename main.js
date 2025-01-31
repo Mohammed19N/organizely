@@ -21,7 +21,7 @@ canvas.addEventListener('mousemove', (e) => {
         ctx.moveTo(lastX, lastY);
         ctx.lineTo(currentX, currentY);
         ctx.strokeStyle = 'white';
-        ctx.lineWidth = 5;
+        ctx.lineWidth = 50;
         ctx.stroke();
 
         lastX = currentX;
