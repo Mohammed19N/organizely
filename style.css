@@ -1,1 +1,27 @@
+body {
+    margin: 0;
+    background-color: black;
+    overflow: hidden; /* Prevent scrollbars if canvas is larger than viewport */
+}
 
+canvas {
+    display: block; /* Prevents a small gap below the canvas */
+    border: 2px solid blue;
+}
+
+#clearButton {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#clearButton:hover {
+  background-color: #45a049;
+}
