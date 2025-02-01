@@ -20,7 +20,7 @@ canvas.addEventListener('mousemove', (e) => {
         ctx.beginPath();
         ctx.moveTo(lastX, lastY);
         ctx.lineTo(currentX, currentY);
-        ctx.strokeStyle = 'white';
+        ctx.strokeStyle = 'red';
         ctx.lineWidth = 2;
         ctx.stroke();
 
